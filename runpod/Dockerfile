@@ -1,5 +1,6 @@
 FROM runpod/pytorch:2.1.0-cuda11.8.0-devel-ubuntu22.04
 
+# Environment variables
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 
