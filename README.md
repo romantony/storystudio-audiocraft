@@ -57,6 +57,10 @@ that provides pointers to configuration, example grids and model/task-specific i
 
 We provide some [API documentation](https://facebookresearch.github.io/audiocraft/api_docs/audiocraft/index.html) for AudioCraft.
 
+## RunPod serverless
+
+See [`docs/RUNPOD.md`](docs/RUNPOD.md) for a minimal RunPod serverless handler and container setup.
+
 
 ## FAQ
 
