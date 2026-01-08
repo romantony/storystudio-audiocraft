@@ -5,17 +5,17 @@ ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        ffmpeg \
-        libsndfile1-dev \
-        libavcodec-dev \
-        libavdevice-dev \
-        libavfilter-dev \
-        libavformat-dev \
-        libavutil-dev \
-        libswresample-dev \
-        libswscale-dev \
-        pkg-config \
-        git \
+    ffmpeg \
+    libsndfile1-dev \
+    libavcodec-dev \
+    libavdevice-dev \
+    libavfilter-dev \
+    libavformat-dev \
+    libavutil-dev \
+    libswresample-dev \
+    libswscale-dev \
+    pkg-config \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
