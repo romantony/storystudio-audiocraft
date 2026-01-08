@@ -17,7 +17,17 @@ runs:
     shell: bash
     run: |
       sudo apt-get update
-      sudo apt-get install libsndfile1-dev ffmpeg
+      sudo apt-get install -y \
+        ffmpeg \
+        libsndfile1-dev \
+        libavcodec-dev \
+        libavdevice-dev \
+        libavfilter-dev \
+        libavformat-dev \
+        libavutil-dev \
+        libswresample-dev \
+        libswscale-dev \
+        pkg-config
       python3 -m venv env
       .  env/bin/activate
       python -m pip install --upgrade pip
@@ -28,4 +38,14 @@ runs:
     shell: bash
     run: |
       sudo apt-get update
-      sudo apt-get install libsndfile1-dev ffmpeg
+      sudo apt-get install -y \
+        ffmpeg \
+        libsndfile1-dev \
+        libavcodec-dev \
+        libavdevice-dev \
+        libavfilter-dev \
+        libavformat-dev \
+        libavutil-dev \
+        libswresample-dev \
+        libswscale-dev \
+        pkg-config
